@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Eshan Kumar Jain</title>
+  <script>
+    // GitHub Pages SPA redirect: preserve the path in sessionStorage,
+    // then redirect to the root so index.html loads the React app.
+    var path = window.location.pathname.replace('/My-Portfolio-Website', '');
+    sessionStorage.setItem('redirect', path || '/');
+    window.location.replace('/My-Portfolio-Website/');
+  </script>
+</head>
+<body></body>
+</html>
