@@ -111,7 +111,7 @@ export default function About() {
 
         <div className="about-me-grid">
           <div className="about-me-photo">
-            {introDone && <img src="/assets/profile-pic.jpeg" alt="Eshan Kumar Jain" />}
+            {introDone && <img src={`${import.meta.env.BASE_URL}assets/profile-pic.jpeg`} alt="Eshan Kumar Jain" />}
           </div>
 
           <div className="about-me-content">

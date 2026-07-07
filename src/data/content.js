@@ -1,6 +1,7 @@
 // =====================================================================
 // content.js  —  Eshan Kumar Jain's portfolio data
 // =====================================================================
+import { asset } from "../utils/asset.js";
 
 export const SITE_CONTENT = {
   meta: {
@@ -8,7 +9,7 @@ export const SITE_CONTENT = {
     description:
       "Eshan Kumar Jain's portfolio: AI Specialist & Data Analyst. Building agentic AI workflows and turning complex data into decisions.",
     author: "Eshan Kumar Jain",
-    profilePic: "/assets/profile-pic.jpeg",
+    profilePic: asset("/assets/profile-pic.jpeg"),
   },
 
   hero: {
@@ -39,32 +40,32 @@ export const SITE_CONTENT = {
     {
       category: "AI & LLMs",
       items: [
-        { name: "Claude API",         icon: "/assets/skill-logos/anthropic.svg" },
-        { name: "Claude Code",        icon: "/assets/skill-logos/anthropic.svg" },
-        { name: "Subagent Design",    icon: "/assets/skill-logos/anthropic.svg" },
+        { name: "Claude API",         icon: asset("/assets/skill-logos/anthropic.svg") },
+        { name: "Claude Code",        icon: asset("/assets/skill-logos/anthropic.svg") },
+        { name: "Subagent Design",    icon: asset("/assets/skill-logos/anthropic.svg") },
         { name: "Prompt Engineering", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/openai.svg" },
-        { name: "Groq",               icon: "/assets/skill-logos/groq.svg" },
-        { name: "GitHub Copilot",     icon: "/assets/skill-logos/github.svg" },
-        { name: "Windsurf",           icon: "/assets/skill-logos/notion.svg" },
+        { name: "Groq",               icon: asset("/assets/skill-logos/groq.svg") },
+        { name: "GitHub Copilot",     icon: asset("/assets/skill-logos/github.svg") },
+        { name: "Windsurf",           icon: asset("/assets/skill-logos/notion.svg") },
         { name: "TensorFlow",         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/tensorflow/tensorflow-original.svg" },
-        { name: "Scikit-learn",       icon: "/assets/skill-logos/scikitlearn.svg" },
+        { name: "Scikit-learn",       icon: asset("/assets/skill-logos/scikitlearn.svg") },
         { name: "Pandas",             icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/pandas/pandas-original.svg" },
         { name: "NumPy",              icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/numpy/numpy-original.svg" },
-        { name: "Matplotlib",         icon: "/assets/skill-logos/Matplotlib_icon.svg.png" },
-        { name: "Seaborn",            icon: "/assets/skill-logos/python.svg" },
-        { name: "Plotly",             icon: "/assets/skill-logos/plotly.svg" },
+        { name: "Matplotlib",         icon: asset("/assets/skill-logos/Matplotlib_icon.svg.png") },
+        { name: "Seaborn",            icon: asset("/assets/skill-logos/python.svg") },
+        { name: "Plotly",             icon: asset("/assets/skill-logos/plotly.svg") },
         { name: "OpenCV",             icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/opencv/opencv-original.svg" },
       ],
     },
     {
       category: "Frameworks & Libraries",
       items: [
-        { name: "Next.js",       icon: "/assets/skill-logos/nextdotjs.svg" },
+        { name: "Next.js",       icon: asset("/assets/skill-logos/nextdotjs.svg") },
         { name: "React",         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" },
         { name: "Node.js",       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nodejs/nodejs-original.svg" },
         { name: "Vite",          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/vitejs/vitejs-original.svg" },
         { name: "Tailwind CSS",  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/tailwindcss/tailwindcss-original.svg" },
-        { name: "Framer Motion", icon: "/assets/skill-logos/framer.svg" },
+        { name: "Framer Motion", icon: asset("/assets/skill-logos/framer.svg") },
       ],
     },
     {
@@ -74,25 +75,25 @@ export const SITE_CONTENT = {
         { name: "MongoDB",     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mongodb/mongodb-original.svg" },
         { name: "Redis",       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/redis/redis-original.svg" },
         { name: "Git",         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/git/git-original.svg" },
-        { name: "GitHub",      icon: "/assets/skill-logos/github.svg" },
-        { name: "Vercel",      icon: "/assets/skill-logos/vercel.svg" },
+        { name: "GitHub",      icon: asset("/assets/skill-logos/github.svg") },
+        { name: "Vercel",      icon: asset("/assets/skill-logos/vercel.svg") },
         { name: "Linux",       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/linux/linux-original.svg" },
         { name: "REST APIs",   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/fastapi/fastapi-original.svg" },
-        { name: "Streamlit",   icon: "/assets/skill-logos/streamlit.svg" },
+        { name: "Streamlit",   icon: asset("/assets/skill-logos/streamlit.svg") },
       ],
     },
     {
       category: "Operations & Management",
       items: [
         { name: "JIRA",                  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/jira/jira-original.svg" },
-        { name: "ServiceNow",            icon: "/assets/skill-logos/Microsoft_365_Symbol_0.svg" },
+        { name: "ServiceNow",            icon: asset("/assets/skill-logos/Microsoft_365_Symbol_0.svg") },
         { name: "Agile / Scrum",         icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/scrumalliance.svg" },
-        { name: "SDLC",                  icon: "/assets/skill-logos/notion.svg" },
-        { name: "Requirements Elicit.",  icon: "/assets/skill-logos/googledocs.svg" },
-        { name: "UAT Execution",         icon: "/assets/skill-logos/leetcode.svg" },
-        { name: "SLA Management",        icon: "/assets/skill-logos/wolfram.svg" },
-        { name: "Microsoft 365",         icon: "/assets/skill-logos/Microsoft_365_Symbol_0.svg" },
-        { name: "Google Workspace",      icon: "/assets/skill-logos/googledocs.svg" },
+        { name: "SDLC",                  icon: asset("/assets/skill-logos/notion.svg") },
+        { name: "Requirements Elicit.",  icon: asset("/assets/skill-logos/googledocs.svg") },
+        { name: "UAT Execution",         icon: asset("/assets/skill-logos/leetcode.svg") },
+        { name: "SLA Management",        icon: asset("/assets/skill-logos/wolfram.svg") },
+        { name: "Microsoft 365",         icon: asset("/assets/skill-logos/Microsoft_365_Symbol_0.svg") },
+        { name: "Google Workspace",      icon: asset("/assets/skill-logos/googledocs.svg") },
         { name: "Stakeholder Mgmt",      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/linkedin/linkedin-original.svg" },
         { name: "Communication",         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/slack/slack-original.svg" },
       ],
@@ -326,7 +327,7 @@ export const SITE_CONTENT = {
   resume: {
     role: "AI Specialist & Data Analyst",
     location: "Maynooth, Ireland",
-    downloadHref: "/assets/Eshan_Kumar_Jain_CV.pdf",
+    downloadHref: asset("/assets/Eshan_Kumar_Jain_CV.pdf"),
   },
 
   softSkills: [
@@ -386,6 +387,6 @@ export const SITE_CONTENT = {
     instagram: "#",
     facebook: "#",
     spotify:  "#",
-    resume:   "/assets/Eshan_Kumar_Jain_CV.pdf",
+    resume:   asset("/assets/Eshan_Kumar_Jain_CV.pdf"),
   },
 };

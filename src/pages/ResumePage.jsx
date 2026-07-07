@@ -90,7 +90,7 @@ export default function ResumePage() {
             </h1>
             <a
               className="resume-download"
-              href="/assets/Eshan_Kumar_Jain_CV.pdf"
+              href={`${import.meta.env.BASE_URL}assets/Eshan_Kumar_Jain_CV.pdf`}
               download="Eshan_Kumar_Jain_CV.pdf"
               aria-label="Download resume as PDF"
             >

@@ -1,53 +1,53 @@
 import { useFadeInOnScroll } from "../hooks/useFadeIn.js";
+import { asset } from "../utils/asset.js";
 
-// Drop the saved screenshots into public/assets/certs/ using the filenames below.
 const CERTS = [
   {
     name: "Introduction to Subagents",
     issuer: "Anthropic",
-    image: "/assets/certs/anthropic-subagents.png",
+    image: asset("/assets/certs/anthropic-subagents.png"),
     link: null,
     accent: "#7aaf9e",   // sage-green matches the cert bg
   },
   {
     name: "Introduction to Agent Skills",
     issuer: "Anthropic",
-    image: "/assets/certs/anthropic-agent-skills.png",
+    image: asset("/assets/certs/anthropic-agent-skills.png"),
     link: null,
     accent: "#6a9fd8",   // blue matches the cert bg
   },
   {
     name: "Claude 101",
     issuer: "Anthropic",
-    image: "/assets/certs/anthropic-claude101.png",
+    image: asset("/assets/certs/anthropic-claude101.png"),
     link: null,
     accent: "#c8b99a",   // beige matches the cert bg
   },
   {
     name: "SQL",
     issuer: "HackerRank",
-    image: "/assets/certs/hackerrank-sql.png",
+    image: asset("/assets/certs/hackerrank-sql.png"),
     link: null,
     accent: "#2ec866",
   },
   {
     name: "Prompt Engineering for Generative AI",
     issuer: "LinkedIn Learning",
-    image: "/assets/certs/linkedin-prompt-engineering.png",
+    image: asset("/assets/certs/linkedin-prompt-engineering.png"),
     link: null,
     accent: "#0a66c2",
   },
   {
     name: "Understanding APIs & RESTful APIs",
     issuer: "Udemy",
-    image: "/assets/certs/udemy-apis.png",
+    image: asset("/assets/certs/udemy-apis.png"),
     link: "https://ude.my/UC-471e458c-5c25-4724-b527-f2062e449e56",
     accent: "#a435f0",
   },
   {
     name: "AI Foundations: Machine Learning",
     issuer: "LinkedIn Learning",
-    image: "/assets/certs/linkedin-ai-ml.png",
+    image: asset("/assets/certs/linkedin-ai-ml.png"),
     link: null,
     accent: "#0a66c2",
   },

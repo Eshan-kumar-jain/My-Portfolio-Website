@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { SITE_CONTENT } from "../data/content.js";
+import { asset } from "../utils/asset.js";
 
 // Floating bottom dock. Every internal icon is a routed page link;
 // LinkedIn / GitHub are external links. The icon for the current
@@ -76,10 +77,10 @@ function IconSvg({ name }) {
 // Internal routed icons, in dock order. Routes with an `image` path use
 // the PNG asset instead of the inline SVG glyph.
 const ROUTES = [
-  { to: "/",         icon: "hero",     title: "Home",     image: "/assets/footer-logos/icons8-home-50.png" },
+  { to: "/",         icon: "hero",     title: "Home",     image: asset("/assets/footer-logos/icons8-home-50.png") },
   { to: "/about",    icon: "about",    title: "About" },
-  { to: "/projects", icon: "projects", title: "Projects & Certifications", image: "/assets/footer-logos/icons8-projects-64.png" },
-  { to: "/resume",   icon: "resume",   title: "Resume",   image: "/assets/footer-logos/icons8-resume-80.png" },
+  { to: "/projects", icon: "projects", title: "Projects & Certifications", image: asset("/assets/footer-logos/icons8-projects-64.png") },
+  { to: "/resume",   icon: "resume",   title: "Resume",   image: asset("/assets/footer-logos/icons8-resume-80.png") },
 ];
 
 export default function FooterDock() {
