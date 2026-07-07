@@ -1,6 +1,7 @@
 import { SITE_CONTENT } from "../data/content.js";
 import ScrollCircle from "./ScrollCircle.jsx";
 import BlackHole from "./BlackHole.jsx";
+import SpaceAudio from "./SpaceAudio.jsx";
 import { useIntroDone } from "../hooks/useIntroDone.js";
 
 export default function Hero() {
@@ -9,6 +10,7 @@ export default function Hero() {
   return (
     <section className="hero" id="hero" style={{ position: "relative", overflow: "hidden" }}>
       <BlackHole />
+      <SpaceAudio active={introDone} />
       <div className="hero-content" style={{ position: "relative", zIndex: 1 }}>
         <div className="profile-pic-wrap">
           <div className="profile-pic">
